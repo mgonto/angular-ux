@@ -1,0 +1,22 @@
+.main-card {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.details.ng-hide-remove {
+  animation: bounceIn 1s;
+  -webkit-animation: bounceIn 1s;
+  -moz-animation: bounceIn 1s;
+  -ms-animation: bounceIn 1s;
+}
+
+.details.ng-hide-add {
+  animation: bounceOut 1s;
+  -webkit-animation: bounceOut 1s;
+  -moz-animation: bounceOut 1s;
+  -ms-animation: bounceOut 1s;
+}
+
+.red h1, .red p, .red h2, .red li {
+  color: red;
+}

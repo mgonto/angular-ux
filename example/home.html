@@ -1,0 +1,27 @@
+<div class="panel panel-default main-card" >
+  <div class="panel-heading clearfix">
+    <h3 class="panel-title pull-left">Base Card Title</h3>
+    <a class="btn btn-primary pull-right" href="" ng-click="extraDetails = true">
+      Show details
+    </a>
+  </div>
+  <div class="list-group">
+    <div class="list-group-item">
+      <p class="list-group-item-text">Name</p>
+      <h4 class="list-group-item-heading">John Smith</h4>
+    </div>
+    <div class="list-group-item">
+      <p class="list-group-item-text">Occupation</p>
+      <h4 class="list-group-item-heading">Web Developer</h4>
+    </div>
+    <div class="list-group-item details" ng-show="extraDetails">
+      <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris tellus, vehicula ut tellus id, suscipit dapibus tortor. Integer viverra turpis ac fringilla hendrerit. Sed faucibus posuere felis et pellentesque. Cras varius tortor vitae molestie tempor. Proin ut viverra elit, ac gravida tortor.</p>
+      <a class="btn btn-primary" href="" ng-click="extraDetails = false">
+      Hide details
+      </a>
+      <a class="btn btn-primary" href="" ux-go="Details">
+      Go to details page
+      </a>
+    </div>
+  </div>
+</div>
