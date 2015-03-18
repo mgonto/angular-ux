@@ -81,11 +81,15 @@ angular.module('ux.themes', [])
     return {
       restrict: 'A',
       replace: false,
+      scope: {
+        uxThemable: '@'
+      },
       controller: ["$element", "$location", "$scope", function($element, $location, $scope) {
         function checkTheme() {
           var params = $location.search();
-          if (params.uxTheme) {
-            $element.addClass(params.uxTheme);
+          var theme = ($scope.uxThemable && params[$scope.uxThemable]) || params.uxTheme;
+          if (theme) {
+            $element.addClass(theme);
           }
         }
         $scope.$on('$locationChangeSuccess', function() {

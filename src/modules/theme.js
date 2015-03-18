@@ -5,7 +5,7 @@ angular.module('ux.themes', [])
       replace: false,
       scope: {
         uxThemable: '@'
-      }
+      },
       controller: function($element, $location, $scope) {
         function checkTheme() {
           var params = $location.search();
