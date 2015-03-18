@@ -66,8 +66,8 @@ For this, we can use the `ux-page` directive.
 </body>
 ```
 ```html
-<!— home.html —>
-<!— … —>
+<!-- home.html -->
+<!-- ... -->
 <a href=“” ux-go=“Details”>Go to Details page</a>
 ```
 
