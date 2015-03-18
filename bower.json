@@ -1,6 +1,6 @@
 {
   "name": "angular-ux",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Martin Gontovnikas",
@@ -8,7 +8,9 @@
       "url": "http://gon.to/"
     }
   ],
-  "main": ["dist/angular-ux.js"],
+  "main": [
+    "dist/angular-ux.js"
+  ],
   "ignore": [
     "src",
     "test",
