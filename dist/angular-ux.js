@@ -69,7 +69,7 @@ angular.module('ux.pages', ['ux.global'])
           e.preventDefault();
 
           $scope.$apply(function() {
-            uxGlobal.changePage($scope.uxGo);
+            uxGlobal.changePage($scope.uxGo, true);
           })
         });
       }]

@@ -1,6 +1,6 @@
 <div class="panel panel-default main-card" >
   <div class="panel-heading clearfix">
-    <h3 class="panel-title pull-left">Base Card Title</h3>
+    <h3 class="panel-title pull-left">Person Card</h3>
     <a class="btn btn-primary pull-right" href="" ng-click="extraDetails = true">
       Show details
     </a>
@@ -8,11 +8,15 @@
   <div class="list-group">
     <div class="list-group-item">
       <p class="list-group-item-text">Name</p>
-      <h4 class="list-group-item-heading">John Smith</h4>
+      <h4 class="list-group-item-heading">Martin Gontovnikas</h4>
     </div>
     <div class="list-group-item">
       <p class="list-group-item-text">Occupation</p>
-      <h4 class="list-group-item-heading">Web Developer</h4>
+      <h4 class="list-group-item-heading">Developer Advocate at Auth0</h4>
+    </div>
+    <div class="list-group-item">
+      <p class="list-group-item-text">Special message</p>
+      <input type="text" class="form-control" placeholder="Enter your message. It'll be displayed on Details page" ng-model="data.message">
     </div>
     <div class="list-group-item details" ng-show="extraDetails">
       <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mauris tellus, vehicula ut tellus id, suscipit dapibus tortor. Integer viverra turpis ac fringilla hendrerit. Sed faucibus posuere felis et pellentesque. Cras varius tortor vitae molestie tempor. Proin ut viverra elit, ac gravida tortor.</p>
